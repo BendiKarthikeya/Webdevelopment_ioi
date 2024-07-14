@@ -1,0 +1,96 @@
+## Clint Server Architecture:
+	* client is a computer which is capable of sending request to other computer present in internet
+	* we say client as a computer but in reality browser software is termed as a client.
+
+## Server:
+	* It is a computer which has the capability to provide output to any number of clients.
+	* Normally, a server computer woud be referred as high configuration computer.
+	* Inside the server computer we install a server software called web server.
+	* Eg : Tomcat, wildfly, glassfish.
+
+## NOTE:
+  Installing nodes will promote a built tool through which we can automate the process of taking third party libraries from different websites to our projects with the help of a command called "npm"
+
+
+* On a browser to display a content as per your requirement we need to "markup" our content.
+* To markup the content on the browser we need a language called "HTML" (Hyper Text Markup Language.   
+
+## HTML parsing:
+
+
+##  Evolution of HTML Language:
+	
+	*  GML-General markup language
+	*  SGML-Standard General markup language
+
+	* Tim burner lee introduced a new markup language HTML , which is a subset of SGML.
+	* Initially HTML language is a Open source language.
+	* HTML is introduced a communicating language by Tim burner lee.
+	* HTML is maintained by a community called "WHATWG"
+	* HTML:4 version didn't gave importance for SEO(Search Engine Optimisation.  and responsive design.
+	* In HTML5 different elements are introduce to give importance for SEO and responsive design
+	* SEO refers to search engine optimization 
+	* When ever we type some content which needs to be searched. Google search engine users SEO  techniques(robot like bot, web craws, web spiders. 
+
+##  Categories of HTML Elements:
+	1. Normal Elements Eg. <b* </b* 
+
+	2. Void Elements Eg. <img* 
+
+	3. RC(rich Context.  data elements.
+	  Eg: <textarea*  <p*  Hello pw'ian  </p*  </textarea* 
+
+	4. Raw Text Element:
+	  Eg: Temparature25C 4500/-
+ 	      Temparature25&deg;C &#8377;4500/-
+
+	5.  Foreign Elements
+
+##  HTML Structure:
+	
+	Arranging the elements of HTML in a hierarchical way to present on a webpage is called "## DOM## " .
+	
+				<html* 
+					<!-- Document scope-*  
+					<head* 
+
+					</head* 
+					<body* 
+
+					</body* 
+				</html* 
+	
+
+	*   The content present in HEAD section is mainly use for SEO and responsive design.
+
+	*   The elements which written inside the "head" section are :
+		* title
+		* link	
+		* metadata
+		* style 
+		* script
+
+
+	*  It is a indication to a browser engine that in the body section we use element of HTML5.
+	  			<html lang="en-IN"* 
+
+	*  it is indication to a browser engine that the output should be feasible to the end users in particular format.
+ 	  
+## Body Section(Dynamic Content.  :
+
+	Attributes of body tag:
+
+		1. bgcolor: this attribute is used to set background color for body section.
+		2. text: this attribute is used to set different color value for the content to be presented.
+		<body bgcolor="back" text="white"* 
+			------
+		</body* 
+
+
+
+	
+	
+	
+	
+
+

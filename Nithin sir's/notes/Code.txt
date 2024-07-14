@@ -1,0 +1,47 @@
+ <style type="text/css"> 
+        /* body{
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+        } */
+        /* div{
+            border: 1px solid black;
+            margin: 10px;
+            padding: 10px;
+        } */
+    </style> 
+</head> 
+<!-- <body align="justify" vlink="red" alink="green">
+    <a href="http://www.google.com">Google</a>
+    <a href="http://www.amozon.com">Amozon</a>
+    <a href="http://www.flipkart.com">FlipKart</a> 
+</body>-->
+
+<!-- <body>
+    <div>
+        <div>
+            FrontEnd
+            <div>
+                HTML
+                It is a markup language
+            </div>
+            <div>
+                CSS
+                It is a styling language
+            </div>
+        </div>
+        <div>
+            Backend
+            <div>
+                MongoDB
+                It is a database
+            </div>
+            <div>
+               Node.js
+               It is a server side scripting language
+            </div>
+        </div>
+    </div>
+
+</body> -->
