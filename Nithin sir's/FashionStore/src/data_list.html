@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        dl{
+            display: grid;
+            grid-template-columns: 3fr 9fr;            
+            margin: 30px;           
+        }
+        
+        dt{
+            background-color: black;
+            color: white;
+            padding: 5px;
+            margin-bottom: 5px;
+            margin-left: 20px;
+            font-size: large;
+            font-weight: 500;
+            width: 150px;
+         }
+         dd{
+            background-color: gray;
+            color: black;
+            width: 250px;
+            padding: 5px;
+            margin-bottom: 5px;
+            
+         } 
+         fieldset{
+            
+            margin: 10px;
+            width: 500px;
+            background-image: url(/FashionStore/public/images/pexels-shattha-pilabut-38930-135620.jpg);
+            background-size: cover;
+            box-shadow: 10px 10px 25px red;
+        }
+         legend{
+            background-color: black;
+            color:white;
+            text-align: center;
+            padding: 5px;
+            border-radius: 8px;
+            box-shadow: 5px 5px 40px blue;
+         }
+    </style>
+</head>
+<body>
+
+        <fieldset>
+        <legend>Personal Details</legend>
+        <dl>
+            <dt>First Name</dt>
+            <dd>some Name</dd>
+
+            <dt>Last Name</dt>
+            <dd>some Name</dd>
+
+            <dt>Age</dt>
+            <dd>some Age</dd>
+            
+        </dl>
+    `   </fieldset>
+        
+        <fieldset>
+        <legend>Contact details</legend>
+        <dl>
+            <dt>City</dt>
+            <dd>some City</dd>
+
+            <dt>State</dt>
+            <dd>some State</dd>
+
+            <dt>PostalCode</dt>
+            <dd>some PostalCode</dd>
+            
+        </dl>
+    </fieldset>
+
+</body>
+</html>

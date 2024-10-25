@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: grid;
+            grid-template-columns: 2fr 8fr 2fr;
+        }
+        header,nav,main,aside,footer{
+            border: 2px solid black;
+            margin: 2px;
+        }
+        nav{
+            background-color: aquamarine;
+        }
+        aside{
+            background-color: lightcoral;
+        }
+        @media screen and (orientation:landscape) {
+            header{
+                grid-row: 1;
+                grid-column: 1/4;
+            }
+            nav{
+                grid-row: 2;
+                grid-column: 1;
+            }
+            main{
+                grid-row: 2;
+                grid-column: 2;
+                height: 300px;
+            }
+            aside{
+                grid-row: 2;
+                grid-column: 3;
+            }
+            footer{
+                grid-row: 3;
+                grid-column: 1/4;
+
+            }
+        }
+        @media screen and (orientation:portrait){
+            body{
+                display: grid;
+                grid-template-columns: 12fr;
+            }
+            header{
+                grid-row: 1;
+                grid-column: 1;
+            }
+            nav{
+                grid-row: 2;
+                grid-column: 1;
+            }
+            main{
+                grid-row: 3;
+                grid-column: 1;
+                height: 300px;
+            }
+            aside{
+                grid-row: 4;
+                grid-column: 1;
+            }
+            footer{
+                grid-row: 5;
+                grid-column: 1;
+
+            }
+
+        } 
+    </style>
+</head>
+<body>
+    <header>Header</header>
+    <nav>Nav</nav>
+    <main>Main</main>
+    <aside>Aside</aside>
+    <footer>Footer</footer>
+</body>
+</html>

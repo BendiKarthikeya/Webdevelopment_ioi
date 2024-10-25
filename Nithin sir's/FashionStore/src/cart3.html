@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/FashionStore/src/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        header{
+            background-color: lightgreen;
+            padding: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 20px;
+            height: 110px;
+        }
+        section{
+            display: grid;
+            grid-template-columns: 3fr 9fr;
+        }
+        main{
+            height: 350px;
+            overflow: auto;
+            background-color: rgb(73, 254, 73);
+            padding: 30px  ;
+            border-radius: 10px;
+            scrollbar-color: green;
+        }
+        a:hover{
+            color: purple;
+        }
+        ul{
+            list-style: none;
+            margin-left: -20px;
+        }
+        li{
+            background-color: yellowgreen;
+            padding: 5px;
+            margin-bottom: 10px;
+            width: 200px;
+            border: 2px solid white;
+            border-radius: 50px;
+            text-align: center;
+
+
+        }
+        a:active{
+            color: red;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(55, 55, 55);
+        }
+        body{
+            background-color: rgb(38, 98, 14);
+        }
+        div img{
+            border-radius: 50px;
+            margin-top: 10px;
+            margin-left: 10px;
+            
+        }
+        div img:hover{
+            box-shadow: 3px 5px 20px black;
+        }
+
+        .Go{
+            background: rgb(240, 196, 240);
+            color: honeydew;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        li:hover{
+            box-shadow: 3px 5px 20px red;
+        }
+        .phone{
+            color: red;
+            background: white;
+        }
+    </style>
+</head>
+<body>
+    <header >
+        <div class="bi bi-cart"><span><a href="#home">FashionCart</a> </span> </div>
+        <div>
+            <span>
+                <a href="#kids">
+                    <img src="/FashionStore/public/images/kids_image.jpeg" width="80" height="80">
+                </a>
+            </span>
+            <span>
+                <a href="#mens">
+                    <img src="/FashionStore/public/images/mens_fashion.jpeg" width="80" height="80">
+                </a>
+            </span>
+            <span>
+                <a href="#womens">
+                    <img src="/FashionStore/public/images/womens_Fashion.jpeg" width="80" height="80">
+                </a>
+            </span>
+        </div>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#kids">KidsFashion</a></li>
+                <li><a href="#mens">MensFashion</a></li>
+                <li><a href="#womens">WomenFashion</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2 id="home">Home</h2>
+            <p>Lorem ipsum dolor sit amet <span class="phone"> <a href="#iphone">Mobile</a></span> consectetur adipisicing elit. Ab quaerat culpa voluptatum mollitia quis eaque accusamus explicabo harum consectetur fuga! Itaque maxime ut facere culpa praesentium dolores in reprehenderit commodi eveniet voluptates similique obcaecati molestias asperiores suscipit deserunt cum placeat, doloremque beatae distinctio recusandae. Atque exercitationem laborum commodi! Dolorum neque adipisci quas excepturi distinctio. Minima eum explicabo voluptatum accusamus nulla molestias magni, eius velit eos nostrum placeat ipsa fuga vitae impedit nobis adipisci reprehenderit atque tenetur porro. Deleniti incidunt tempora ea aperiam officiis ducimus natus velit doloremque libero eum iusto repellat assumenda dolore nostrum accusantium ipsa officia, ullam sunt rerum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quaerat culpa voluptatum mollitia quis eaque accusamus explicabo harum consectetur fuga! Itaque maxime ut facere culpa praesentium dolores in reprehenderit commodi eveniet voluptates similique obcaecati molestias asperiores suscipit deserunt cum placeat, doloremque beatae distinctio recusandae. Atque exercitationem laborum commodi! Dolorum neque adipisci quas excepturi distinctio. Minima eum explicabo voluptatum accusamus nulla molestias magni, eius velit eos nostrum placeat ipsa fuga vitae impedit nobis adipisci reprehenderit atque tenetur porro. Deleniti incidunt tempora ea aperiam officiis ducimus natus velit doloremque libero eum iusto repellat assumenda dolore nostrum accusantium ipsa officia, ullam sunt rerum.</p>
+            
+            <h2 id="kids">KidsFashion</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quaerat culpa voluptatum mollitia quis eaque accusamus explicabo harum consectetur fuga! Itaque maxime ut facere culpa praesentium dolores in reprehenderit commodi eveniet voluptates similique obcaecati molestias asperiores suscipit deserunt cum placeat, doloremque beatae distinctio recusandae. Atque exercitationem laborum commodi! Dolorum neque adipisci quas excepturi distinctio. Minima eum explicabo voluptatum accusamus nulla molestias magni, eius velit eos nostrum placeat ipsa fuga vitae impedit nobis adipisci reprehenderit atque tenetur porro. Deleniti incidunt tempora ea aperiam officiis ducimus natus velit doloremque libero eum iusto repellat assumenda dolore nostrum accusantium ipsa officia, ullam sunt rerum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quaerat culpa voluptatum mollitia quis eaque accusamus explicabo harum consectetur fuga! Itaque maxime ut facere culpa praesentium dolores in reprehenderit commodi eveniet voluptates similique obcaecati molestias asperiores suscipit deserunt cum placeat, doloremque beatae distinctio recusandae. Atque exercitationem laborum commodi! Dolorum neque adipisci quas excepturi distinctio. Minima eum explicabo voluptatum accusamus nulla molestias magni, eius velit eos nostrum placeat ipsa fuga vitae impedit nobis adipisci reprehenderit atque tenetur porro. Deleniti incidunt tempora ea aperiam officiis ducimus natus velit doloremque libero eum iusto repellat assumenda dolore nostrum accusantium ipsa officia, ullam sunt rerum.</p>
+            <img src="/FashionStore/public/images/kids_image.jpeg" width="200px" height="150px">
+
+            <h2 id="mens">MensFashion</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quaerat culpa voluptatum mollitia quis eaque accusamus explicabo harum consectetur fuga! Itaque maxime ut facere culpa praesentium dolores in reprehenderit commodi eveniet voluptates similique obcaecati molestias asperiores suscipit deserunt cum placeat, doloremque beatae distinctio recusandae. Atque exercitationem laborum commodi! Dolorum neque adipisci quas excepturi distinctio. Minima eum explicabo voluptatum accusamus nulla molestias magni, eius velit eos nostrum placeat ipsa fuga vitae impedit nobis adipisci reprehenderit atque tenetur porro. Deleniti incidunt tempora ea aperiam officiis ducimus natus velit doloremque libero eum iusto repellat assumenda dolore nostrum accusantium ipsa officia, ullam sunt rerum.</p>
+            <img src="/FashionStore/public/images/iphone.jpg"  width="200px" height="150px" title="iphone" id="iphone">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quaerat culpa voluptatum mollitia quis eaque accusamus explicabo harum consectetur fuga! Itaque maxime ut facere culpa praesentium dolores in reprehenderit commodi eveniet voluptates similique obcaecati molestias asperiores suscipit deserunt cum placeat, doloremque beatae distinctio recusandae. Atque exercitationem laborum commodi! Dolorum neque adipisci quas excepturi distinctio. Minima eum explicabo voluptatum accusamus nulla molestias magni, eius velit eos nostrum placeat ipsa fuga vitae impedit nobis adipisci reprehenderit atque tenetur porro. Deleniti incidunt tempora ea aperiam officiis ducimus natus velit doloremque libero eum iusto repellat assumenda dolore nostrum accusantium ipsa officia, ullam sunt rerum.</p>
+            <img src="/FashionStore/public/images/mens_fashion.jpeg" width="200px" height="150px">
+            <div class="Go"><a href="#home">Go to top</a></div>
+            <h2 id="womens">WomenFashion</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quaerat culpa voluptatum mollitia quis eaque accusamus explicabo harum consectetur fuga! Itaque maxime ut facere culpa praesentium dolores in reprehenderit commodi eveniet voluptates similique obcaecati molestias asperiores suscipit deserunt cum placeat, doloremque beatae distinctio recusandae. Atque exercitationem laborum commodi! Dolorum neque adipisci quas excepturi distinctio. Minima eum explicabo voluptatum accusamus nulla molestias magni, eius velit eos nostrum placeat ipsa fuga vitae impedit nobis adipisci reprehenderit atque tenetur porro. Deleniti incidunt tempora ea aperiam officiis ducimus natus velit doloremque libero eum iusto repellat assumenda dolore nostrum accusantium ipsa officia, ullam sunt rerum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quaerat culpa voluptatum mollitia quis eaque accusamus explicabo harum consectetur fuga! Itaque maxime ut facere culpa praesentium dolores in reprehenderit commodi eveniet voluptates similique obcaecati molestias asperiores suscipit deserunt cum placeat, doloremque beatae distinctio recusandae. Atque exercitationem laborum commodi! Dolorum neque adipisci quas excepturi distinctio. Minima eum explicabo voluptatum accusamus nulla molestias magni, eius velit eos nostrum placeat ipsa fuga vitae impedit nobis adipisci reprehenderit atque tenetur porro. Deleniti incidunt tempora ea aperiam officiis ducimus natus velit doloremque libero eum iusto repellat assumenda dolore nostrum accusantium ipsa officia, ullam sunt rerum.</p>
+            <img src="/FashionStore/public/images/womens_Fashion.jpeg" width="200px" height="150px">
+            
+        </main>
+    </section>
+    
+    
+</body>
+</html>

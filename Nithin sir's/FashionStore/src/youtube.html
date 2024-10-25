@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/FashionStore/src/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        header{
+            display: flex;
+            justify-content: space-around;
+            font-size: 20px;
+        }
+        .header_part1{
+            display: flex;
+            align-items: center;
+            margin-left: -100px;
+        }
+        .header_part2{
+            display: flex;
+            align-items: center;
+        }
+        .header_part3{
+            display: flex;
+            align-items: center;
+            width: 150px;
+            justify-content: space-around;
+            font-size: 20px;   
+            margin-right: -100px;       
+        }
+        .bi-list{
+            font-size: 20px;
+        }
+        .serch_bar{
+            display: flex;
+            width: 400px;
+            border: 1px solid black;
+            border-radius: 50px;
+            justify-content: space-between;
+            padding: 8px;
+            font-size: 17px;
+        }
+        .bi-mic-fill{
+            background-color: lightgray;
+            border-radius:50% ;
+            padding: 10px;
+            margin-left: 10px;
+            font-size: 17px;
+        }
+        .profile{
+            display: inline-block;
+            width:18px ;
+            text-align: center;
+            background-color: black;
+            color: white;
+            border-radius:100% ;
+            padding: 5px;
+            font-size: 15px;
+        }
+        ul{
+            list-style: none;
+            border-bottom: 1px solid gray;
+            width: 150px;
+        }
+        .bi{
+            font-size: 20px; 
+        }
+        nav{
+            margin-left: -20px;
+            font-size: 15px;
+        }
+        nav span{
+            margin-right: 10px;
+
+        }
+        .tabs li{
+            padding: 10px;
+        }
+
+        section{
+            display: grid;
+            grid-template-columns: 2fr 10fr;
+        }
+        .banner{
+            margin-left: 50px;
+            border-radius: 20px;
+        }
+        .pwioi_icon{
+            
+            margin-left: 50px;
+            border-radius: 50%;
+        }
+        article{
+            color:#60606A;
+           margin-top: 20px;
+        }
+        article img{
+            float: left;
+        }
+        article a{
+            color:#60606A;
+        }
+        .main-Tittle{
+            font-size: 35px;
+            font-weight: bold;
+            color:black;
+        }
+        .Tittle{
+            margin-left: 250px;
+        }
+        a{
+            text-decoration: none;
+        }
+        .Tittle div{
+            margin-top: 10px;
+        }
+        .Tittle b{
+        color: black;
+        }
+        .tittle-link{
+            color: blue;
+        }
+        .subscribe{
+            background-color: black;
+            color: white;
+            width: 100px;
+            border-radius: 30px;
+            padding: 10px;
+            text-align: center;
+            
+        }
+        .catogories{
+            display: flex;
+            width: 400px;
+            justify-content: space-around;
+            text-transform: capitalize;
+            border: 0;
+        }
+        .catogories li:hover{
+            border-bottom: 2px solid black;
+            
+        }
+        .tabs li:hover{
+            background-color: #c6c6d3;
+            border-radius: 5px;
+        }
+        nav div{
+            
+            padding-left: -20px;
+            padding-bottom :-20px;
+            cursor: pointer;
+        }
+        nav div hr{
+            width: 1050px;
+        color: gray;
+        }
+        .iframes{
+            display: grid;
+            grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+            margin-top: 10px;
+            grid-gap: 5px;
+            margin-top: 20px;
+            border-bottom: 1px solid gray;
+            padding-bottom: 20px;
+            padding-top: 10px;
+        }
+        body{
+            font-family: sans-serif
+        }
+        .heading_1 span{
+            margin: 10px 10px 10px 0px;
+        }
+        .heading_1{
+            margin: 10px 10px 10px 0px;
+        }
+        .heading_1 p{
+            color: #60606A;
+        }
+        .tabs A{
+            border-bottom: white;
+        }
+        h5{
+            margin-top: -2px;
+            margin-bottom: -5px;
+            font-size: 14px;
+        }
+        .iframes p{
+            font-size: 13px;
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <header>
+        <div class="header_part1">
+            <span class="bi bi-list"></span>
+            <span><img src="/FashionStore/public/images/youtube-icon_2.png" height="60px"></span>
+        </div>
+
+        <div class="header_part2">
+            <div class="serch_bar">
+                <span >Search</span>
+                <span class="bi bi-search"></span>
+            </div>
+            <div >
+                <span class="bi bi-mic-fill"></span>
+            </div>
+        </div>
+
+        <div class="header_part3">
+            <span class="bi bi-camera-video"></span>
+            <span class="bi bi-bell"></span>
+            <span class="profile">K</span>
+        </div>
+    
+
+    </header>
+    <section>
+        <nav>
+            <ul class="tabs">
+                <li><span class="bi bi-house"></span>Home</li>
+                <li><span class="bi bi-play-circle"></span>Shorts</li>
+                <li><span class="bi bi-collection-play"></span>Subscriptions</li>
+            </ul>
+            <ul class="tabs A">
+                <p><b>You</b> <span class="bi bi-chevron-right"></span></p>
+                <li><span class="bi bi-person-square"></span>Your channel</li>
+                <li><span class="bi bi-clock-history"></span>History</li>
+                <li><span class="bi bi-list"></span>Playlists</li>
+                <li><span class="bi bi-play-circle"></span>Your videos</li>
+                <li><span class="bi bi-clock"></span>Watch later</li>
+                <li><span class="bi bi-hand-thumbs-up"></span>Liked videos</li>
+            </ul>
+        </nav>
+        <main>
+            <div ><img class="banner" src="/FashionStore/public/images/banner_pwioi.jpg" alt="banner_pwioi" width="950px"></div>
+            <article>
+                <div><img  class="pwioi_icon" src="/FashionStore/public/images/pwioi_icon.jpg" ></div>
+                <div class="Tittle">
+                    <div class="main-Tittle">PW Institute of Innovation</div>
+                    <div>@PW-IOI • 7.24K subscribers • 157 videos</div>    
+                    <div><a href="javascrip.void()">Shaping Futures, Empowering Innovators!  🚀 <b>...more</b></a></div>    
+                    <div><a href="javascrip.void()"><span class="tittle-link">pwioi.com/?utm_source=Youtube&utm_medium=Social&utm_campaign=Organic....    </span><b>and 8 more links</b></a></div>    
+                    <div class="subscribe">Subscribe</div>                      
+                </div>
+            </article>
+            
+            <nav >
+                <div>
+                    <ul class="catogories">
+                        <li>home</li>
+                        <li>video</li>
+                        <li>shorts</li>
+                        <li>playlists</li>
+                        <li>community</li>
+                    </ul>
+                    <hr>
+                </div>
+            </nav>
+            <div>
+            <div>
+                <div class="heading_1">
+                    <span style="font-size: 20px;">All About PW IOI</span>
+                    <span class="bi bi-play-fill"></span> 
+                    <span>Play all</span>
+                    <p>
+                        Welcome to PW IOI! Explore our playlist for talks, seminars, and workshops led by experts. Ignite your passion for innovations in Technology and Management, enhance skills, and embrace collaboration for personal and professional growth.
+                    </p>
+                </div>
+                
+            </div>
+            <div class="iframes">
+                <div>
+                    <iframe width="210px" height="130px" src="https://www.youtube.com/embed/MVPYoRTV438?si=rcXzTvrSQixlAWoP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <br>
+                <div>
+                    <h5>PW IOI AD WARS Challenge |  The Task Announcement of..</h5>
+                    <p> PW Institute of Innovation<br>
+                     925 views . 1 month ago
+                    </p>
+                </div>
+                </div>
+                <div>
+                    <iframe width="210px" height="130px" src="https://www.youtube.com/embed/xL8op-oqRTg?si=gkdK4pxNkzMelznY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div>
+                        <h5>PW IOI Campus Tour | PW Institute of Innovation</h5>
+                        <p> 
+                            PW Institute of Innovation<br>
+                            22K views . 10 months ago
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <iframe width="210px" height="130px" src="https://www.youtube.com/embed/UnCrj9xJzAU?si=OETtZMDpu24htk9B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div>
+                        <h5>What Is PW IOI ?</h5>
+                        <br>
+                        <p> 
+                            PW Institute of Innovation<br>
+                            23K views . 3 month ago
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <iframe width="210px" height="130px" src="https://www.youtube.com/embed/NRVjPp0tuiI?si=2HhVOY7gpnrS1sjR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div>
+                        <h5>We SURPRISED Students at Midnight🎅 (Teaser)</h5>
+                           
+                            <p> PW Institute of Innovation<br>
+                                832 views . 7 month ago
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <iframe width="210px" height="130px" src="https://www.youtube.com/embed/aBnhflnsmXw?si=ZAslsC5ePLFQicHS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div>
+                        <h5>Label Padhega INDIA: What's REALLY in Your Food? India's..</h5>
+                        <p> PW Institute of Innovation<br>
+                            828 views . 2 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+        </main>
+        
+    </section>
+    
+</body>
+</html>

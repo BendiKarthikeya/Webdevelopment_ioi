@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/FashionStore/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/FashionStore/src/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body class="d-flex justify-content-center"  >
+    <form class="w-25 m-3 ">
+        <div class="h3">Register User</div>
+        <dl class="border border-2 border-danger p-3">
+            <dt>Username</dt>
+            <dd>
+                <input type="text" name="txtUser" class="form-control">
+            </dd>
+            <dt>Password</dt>
+            <dd>
+                <input type="password" name="txtpass" class="form-control">
+            </dd>
+            <dt class="txtCity">Select City</dt>
+            <dd>
+                <select>
+                    <option>Bengaluru</option>
+                    <option>Hyderabad</option>
+                    <option>Mumbai</option>
+                </select>
+            </dd>
+            <dt>Price Range</dt>
+            <dd>
+                <input type="range" class="form-range">
+            </dd>
+            <dt>Subscribe</dt>
+            <dd class="form-switch">
+                <input type="checkbox" class="form-check-input">
+                <label  class="form-check-label">Yes</label>
+            </dd>
+        </dl>
+    </form>
+</body>
+</html>

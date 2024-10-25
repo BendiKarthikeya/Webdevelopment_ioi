@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <!-- same tab -->
+            <li>
+                <a href="/FashionStore/public/images/kids_image.jpeg">kids_image</a>
+            </li>
+            <!-- new tab -->
+            <li>
+                <a href="/FashionStore/public/images/womens_Fashion.jpeg" target="_blank">womens_Fashion</a>
+            </li>
+            <!-- pop up printer window -->
+            <li>
+                <a href="javascript:window.print()">Printer</a>
+            </li>
+            <!-- pop up image window -->
+            <li>
+                <a href="javascript:window.open('/FashionStore/public/images/kids_image.jpeg','title','width=300,height=300')">kids_image</a>
+
+            </li>
+            <!-- In iframe -->
+            <li>
+                <a href="/FashionStore/public/images/mens_fashion.jpeg" target="main-frame">MensImage</a>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <iframe name="main-frame"></iframe>
+    </section>
+</body>
+</html>

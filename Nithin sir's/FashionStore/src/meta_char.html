@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input pattern="colou?r" placeholder="?" type="text" name="txtTest" value="colour"><br>
+        <input pattern="colou*r" placeholder="*" type="text" name="txtTest" value="colour"><br>
+        <input pattern="colou+r" placeholder="+" type="text" name="txtTest" value="colour"><br>
+        <input pattern=".o." placeholder="." type="text" name="txtTest" value="lol"><br>
+        <input pattern=".?." placeholder=".?" type="text" name="txtTest"  value="12"><br>
+
+        
+        <!-- <input pattern="^\+91\s\d{3}-\d{4}-\d{3}$" type="mail" name="txtTest"><br>
+        
+        <input pattern="^\+\(44\)\(20\)\d{4}\s\d{4}$" type="mail" name="txtTest"><br> -->
+        <!-- sbi:<input pattern="^SBIN0\d{6}$" type="text" name="txtTest"><br> -->
+        <!-- <input pattern="^(?=.*[A-Z])\w{4,15}$" type="mail" name="txtTest"> -->
+        <input pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!&@#$])[a-zA-Z0-9!&@#$]{4,15}" type="mail" name="txtTest">
+        <button>submit</button>
+    </form>
+</body>
+</html>

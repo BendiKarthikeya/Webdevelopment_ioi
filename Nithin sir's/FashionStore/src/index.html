@@ -11,6 +11,7 @@
             justify-content: space-around;
             font-size: 20px;
             padding: 10px;
+            position: sticky;
         }
         .cart-name{
             background-color: red;
@@ -58,15 +59,16 @@
         }
 
         section{
-            height: 250px;
+            display: grid;
+            grid-template-columns: 4fr 4fr 4fr;
         }
-        footer{
+        /* footer{
             background-color: rgb(49, 48, 48);
             color: whitesmoke;
             text-align: center;
             padding: 50px;
-        }
-        .heading_footer{
+        } */
+        /* .heading_footer{
             font-weight: bold;
         }
         .search_bar{
@@ -84,11 +86,53 @@
         }
         button{
             height: 50px;
-            margin: 40px;
-            margin-right: 40px;
+            
             width: 100px;
         }
+        .email{
+            background-color: rgb(43, 38, 38);
+            color: antiquewhite;
+           
+        } */
 
+        /* footer{
+            background-color: rgb(49, 48, 48);
+            color: whitesmoke;
+            display: grid;
+            grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+        } */
+        footer{
+            background-color: rgb(49, 48, 48);
+            color: whitesmoke;
+            display: grid;
+            grid-template-columns: 2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+        }
+        .brand-footer-title{
+            font-size: large;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        ol{
+            list-style: none;
+        }
+        .brand-footer-title1{
+            font-size: x-large;
+            font-weight: bold;
+            margin: 15px 0px 15px 0px;
+        }
+        .womenfashion{
+            background-image: url(/FashionStore/public/images/women-outfit.jpg);
+        }
+        .menfashion{
+            background-image: url(/FashionStore/public/images/mens-outfit.jpeg);
+        }
+        .kidsfashion{
+            background-image: url(/FashionStore/public/images/kids-outfit.jpeg);
+        }
     </style> 
 </head> 
 
@@ -102,9 +146,9 @@
             <span>Home</span>
             <span>Catalog</span>
             <span>Shop</span>
-            <span> Pages</span>
+            <span>Pages</span>
             <span>Blog </span>
-            <span> Docs</span>
+            <span>Docs</span>
         </nav>  
     </div>
     <div>
@@ -121,50 +165,117 @@
         <span class="bi bi-lightning-charge-fill"></span>
         <span>HAPPY HOLIDAY DEALS ON EVERYTHING</span>
         <span class="bi bi-lightning-charge-fill"></span>
-        
-
     </article>
     <section>
-
+        <div class="womenfashion">
+            <div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="menfashion">
+            <div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="kidsfashion">
+            <div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
     </section>
     <footer>
-        <div id="Names">Want style Ideas and Treats?</div>
-        <div class="search_bar">
-            <input class="email" type="text" placeholder="Enter Email *" >
-            <button>Subscribe</button>
+        <div>
+        <div class="brand-footer-title1">Shopper.</div>
+        <aside>
+            <span class="bi bi-facebook"></span>
+            <span class="bi bi-instagram"></span>
+            <span class="bi bi-youtube"></span>
+            <span class="bi bi-twitter"></span>
+            <span class="bi bi-medium"></span>
+        </aside>
         </div>
-        <div class="Information">
-            <div><span class="heading_footer">Shopper.</span></div><br>
-
-            <div><span class="heading_footer">SUPPORT</span><br><br>
-                Contact Us<br>
-                FAQs<br>
-                Size Guide<br>
-                Shipping & Returns
-            </div>
-
-            <div><span class="heading_footer">SHOP</span><br><br>
-                Men's Shopping<br>
-                Women's Shopping<br>
-                Kids' Shopping<br>
-                Discounts
-            </div>
-
-            <div><span class="heading_footer">COMPANY</span><br><br>
-                Our Story<br>
-                Careers<br>
-                Terms & Conditions<br>
-                Privacy & Cookie policy
-            </div>
-
-            <div><span class="heading_footer">CONTACT</span><br><br>
-                1-202-555-0105<br>
-                1-202-555-0106<br>
-                help@shopper.com
-            </div>
-
+        <div>
+            <ol>
+                <li class="brand-footer-title">SUPPORT<li>
+                <li>Contact Us</li>
+                <li>FAQs</li>
+                <li>Size Guide</li>
+                <li>Shipping & Returns</li>
+            </ol>
+            
+            
         </div>
+        <div>
+            <ol>
+                <li class="brand-footer-title">SHOP</li>
+                <li>Men's Shopping</li>
+                <li>Women's Shopping</li>
+                <li>Kids' Shopping</li>
+                <li>Discounts</li>
+            </ol>
+        </div>
+        <div>
+            <ol>
+                <li class="brand-footer-title">COMPANY</li>
+                <li>Our Story</li>
+                <li>Careers</li>
+                <li>Terms & Conditions</li>
+                <li>Privacy & Cookie policy</li>
+            </ol>
+        </div>
+        <div>
+            <ol>
+                <li class="brand-footer-title">CONTACT</li>
+                <li>1-202-555-0105</li>
+                <li>1-202-555-0106</li>
+                <li>help@shopper.com</li>
+            </ol>
+        </div>
+
     </footer>
+    <!-- <footer>
+        <div>
+        <div class="brand-footer-title">Shopper.</div>
+        <aside>
+            <span class="bi bi-facebook"></span>
+            <span class="bi bi-instagram"></span>
+            <span class="bi bi-youtube"></span>
+            <span class="bi bi-twitter"></span>
+            <span class="bi bi-medium"></span>
+        </aside>
+        </div>
+        <div>
+            <div class="brand-footer-title">SUPPORT</div>
+            <span>Contact Us</span>
+            <span>FAQs</span>
+            <span>Size Guide</span>
+            <span>Shipping & Returns</span>
+        </div>
+        <div>
+            <div class="brand-footer-title">SHOP</div>
+            <span>Men's Shopping</span>
+            <span>Women's Shopping</span>
+            <span>Kids' Shopping</span>
+            <span>Discounts</span>
+        </div>
+        <div>
+            <div class="brand-footer-title">COMPANY</div>
+            <span>Our Story</span>
+            <span>Careers</span>
+            <span>Terms & Conditions</span>
+            <span>Privacy & Cookie policy</span>
+        </div>
+        <div>
+            <div class="brand-footer-title">CONTACT</div>
+            <span>1-202-555-0105</span>
+            <span>1-202-555-0106</span>
+            <span>help@shopper.com</span>
+        </div>
+
+    </footer> -->
 </body>
 
 </html> 
